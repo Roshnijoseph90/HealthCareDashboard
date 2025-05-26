@@ -1,7 +1,7 @@
 
 import React from 'react';
 import '../Styles/AppHeader.css';
-import userPic from '../assets/userPic.png';
+//import userPic from '../assets/userPic.png';
 import { FiSearch } from 'react-icons/fi'; // Search icon
 const AppHeader = () => {
   return (
@@ -17,7 +17,7 @@ const AppHeader = () => {
 
       <div className="headericon">
         <button className="icon-btn">🔔</button>
-        <img src={userPic} alt="User" className="avatar" />
+        <img src="userPic.png" alt="User" className="avatar" />
         <button className="add-btn">+ Add</button>
       </div>
     </header>
