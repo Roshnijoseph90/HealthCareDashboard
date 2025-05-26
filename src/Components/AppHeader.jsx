@@ -1,16 +1,13 @@
-// src/components/Header/Header.jsx
-import React from 'react';
-import '../Styles/AppHeader.css'; // Or use CSS modules
-import userPic from '../assets/userPic.png';
 
+import React from 'react';
+import '../Styles/AppHeader.css';
+import userPic from '../assets/userPic.png';
+import { FiSearch } from 'react-icons/fi'; // Search icon
 const AppHeader = () => {
   return (
     <header className="AppHeader">
-      <div className="headerHeathCare">
-        <h1 className="logo">HealthCare</h1>
-      </div>
-
       <div className="searchbar">
+        <FiSearch className="search-icon" />
         <input
           type="text"
           placeholder="Search..."
@@ -19,17 +16,9 @@ const AppHeader = () => {
       </div>
 
       <div className="headericon">
-        <button className="icon-btn">
-          🔔
-        </button>
-        <img
-          src={userPic}
-          alt="Userimage"
-          className="avatar"
-        />
-        <button className="add-btn">
-          + Add
-        </button>
+        <button className="icon-btn">🔔</button>
+        <img src={userPic} alt="User" className="avatar" />
+        <button className="add-btn">+ Add</button>
       </div>
     </header>
   );

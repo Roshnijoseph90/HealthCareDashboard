@@ -1,0 +1,21 @@
+.dashboard-main-content {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.left-column,
+.right-column {
+  flex: 1;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.anatomy-status-wrapper {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  flex-wrap: wrap; /* So it stacks on smaller screens */
+}

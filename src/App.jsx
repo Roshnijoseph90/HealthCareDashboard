@@ -1,7 +1,7 @@
 import React from 'react';
 import AppHeader from './Components/AppHeader';
 import Sidebar from './Components/Sidebar';
-import AnatomySection from './Components/AnatomySection';
+import DashboardMainContent from './Components/DashboardMainContent';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <div className="mainContent">
         <AppHeader />
         <div className="centerContent">
-          <AnatomySection />
+          <DashboardMainContent />
         </div>
       </div>
     </div>

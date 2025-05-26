@@ -4,19 +4,15 @@ import anatomyImg from '../Assets/humananatomy.png';
 
 const AnatomySection = () => {
   return (
-    <div className="anatomyCard">
-      <img src={anatomyImg} alt="Anatomy Illustration" className="anatomyImage" />
+    <div className="anatomyWrapper">
+      <h2 className="dashboardTitle">Dashboard</h2>
 
-      <div className="label heart">
-        ❤️ Healthy Heart
-      </div>
+      <div className="anatomyCard">
+        <img src={anatomyImg} alt="Anatomy Illustration" className="anatomyImage" />
 
-      <div className="label leg">
-        🦿 Healthy Leg
+        <div className="label heart">❤️ Healthy Heart</div>
+        <div className="label leg">🦿 Healthy Leg</div>
       </div>
-      <div className="label teeth">🦷 Teeth</div>
-      <div className="label lungs">🫁 Lungs</div>
-      <div className="label bone">🦴 Bone</div>
     </div>
   );
 };

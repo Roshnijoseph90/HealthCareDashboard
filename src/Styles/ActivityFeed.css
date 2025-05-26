@@ -1,0 +1,49 @@
+.activityCard {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px 25px;
+    box-shadow: 0 8px 20px rgba(173, 216, 230, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .header h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #1a1a1a;
+  }
+  
+  .header p {
+    font-size: 12px;
+    color: #999;
+    margin: 0;
+  }
+  
+  .chart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  
+  .dayColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .bar {
+    width: 14px;
+    background-color: #00c0ff;
+    border-radius: 4px;
+  }
+  
+  .dayLabel {
+    font-size: 14px;
+    margin-top: 6px;
+    color: #888;
+  }
+  

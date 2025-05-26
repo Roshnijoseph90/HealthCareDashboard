@@ -26,41 +26,20 @@
   }
   
   .heart {
-    top: 15%; 
+    top: 25%; 
     right: -10px;
     background-color: #fddede;
     color: #c43b3b;
   }
   
   .leg {
-    bottom: 58%; /* previously 20% */
+    bottom: 20%; 
     left: -10px;
     background-color: #daf6f4;
     color: #007f77;
   }
-  /* Right-side labels */
-.teeth {
-    top: 20%;
-    right: -110px;
-    background-color: #eef9f0;
-    color: #2f855a;
-  }
-  
-  .lungs {
-    top: 5%;
-    right: -110px;
-    background-color: #f0f4ff;
-    color: #3b5998;
-  }
-  
-  .bone {
-    top: 35%;
-    right: -110px;
-    background-color: #fff5e6;
-    color: #cc7722;
-  }
-
-.appContainer {
+ 
+  .appContainer {
     display: flex;
     width: 100%;
     height: 100vh;
@@ -79,5 +58,13 @@
     display: flex;
     justify-content: left;
     align-items: left;
+  }
+  .dashboardTitle {
+    font-size: 1.6rem;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-bottom: 0; /* Optional: tighten spacing */
+    color: blue
   }
   
