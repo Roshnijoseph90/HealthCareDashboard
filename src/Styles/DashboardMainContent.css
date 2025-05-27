@@ -8,7 +8,7 @@
 .left-column,
 .right-column {
   flex: 1;
-  min-width: 320px;
+  min-width: 400px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -16,6 +16,7 @@
 .anatomy-status-wrapper {
   display: flex;
   gap: 24px;
+  flex-direction: row;
   align-items: flex-start;
-  flex-wrap: wrap; /* So it stacks on smaller screens */
+  flex-wrap: nowrap; 
 }

@@ -10,7 +10,7 @@ function UpcomingSchedule() {
             <h4 className="day-title">{group.day}</h4>
   
             {/* Flex container for two cards side by side */}
-            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap" }}>
+            <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", justifyContent: "space-between" }}>
               {group.items.map((item, index) => (
                 <div
                   key={index}
@@ -20,7 +20,7 @@ function UpcomingSchedule() {
                     
                     borderRadius: "12px",
                     padding: "8px",
-                    flex: "1 1 45%", // Each card takes 45% width
+                   width: "calc(50% - 8px)",
                     minWidth: "200px",
                     display: "flex",
                     alignItems: "center",
